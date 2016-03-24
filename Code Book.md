@@ -5,17 +5,17 @@ For information on how the data was tydied and how the script works, please refe
 
 ##Subject and Activity
 
-* subject_id
+* subject_id:
   Integer identifying the testsubject participating in activities
   
-* activity 
-  Name of activity completed:
-  ** laying
-  ** sitting
-  ** standing
-  ** walking
-  ** walking downstairs
-  ** walking upstairs
+* activity: 
+  Name of activity completed
+  + laying
+  + sitting
+  + standing
+  + walking
+  + walking downstairs
+  + walking upstairs
 
 ##Measures
 All measures describe the mean of the measures of an activity performed per subject. For all measures the mean of measured values was used. Averaging the signals in a signal window sample. These are used on the angle() variable.

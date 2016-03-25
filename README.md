@@ -17,7 +17,7 @@ If this is not the case, you will have to change all file references inside the 
 The output file will be created in this folder as well. It will be named "tidy-mean-output.txt"
 
 ## How to read outcome data into R?
-To read the data into R please you can use the following code. The data will then be read into the "check_data" variable.
+To read the data into R you can use the following code. The data will then be read into the "check_data" variable.
 The View command will then provide a spreadsheet like version of the data table.
 If you use a diffrenent folder than the UCI HAR Dataset, please change the file path accordingly.
 

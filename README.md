@@ -34,11 +34,16 @@ The script combines and tydies the original data provided in the UCI HAR Dataset
 
 
 ## Why is this data tidy?
-Does it have headings so I know which columns are which.
-Are the variables in different columns (depending on the wide/long form)
-Are there no duplicate columns* 
+* Output has descriptive colums to clearly state the content of each column
+* Variables are in different columns
+* The data has no duplicate columns
 
-*
-*
-*
+
 ## Description on how the script works
+1. The script merges the training and the test sets to create one data set.
+2. It extracts only the measurements on the mean and standard deviation for each measurement.
+3. The script then uses descriptive activity names to name the activities in the data set
+4. It appropriately labels the data set with descriptive variable names. The variable names have been chosen in accordance to the R-Styleguide and Hardley Wickhams paper. For links to those sources, please see above.
+5. From the data set in step 4, a second, independent tidy data set is created with the average of each variable for each activity and each subject. The dataset is exported to the tidy-mean-output.txt file.
+
+For further information please see the comments in the script.
